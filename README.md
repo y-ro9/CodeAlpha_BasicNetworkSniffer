@@ -13,11 +13,11 @@ Build a Python program to capture network traffic packets, analyze their structu
 ```bash
 sudo pacman -S --needed python python-pip tcpdump libpcap
 sudo pip install scapy --break-system-packages
-
+```
 
 ```bash
 sudo python3 basic_network_sniffer.py -i eth0 -c 20 -f "tcp"
-
+```
 ## Options:
 
     -i : Network interface
